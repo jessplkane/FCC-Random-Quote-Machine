@@ -34,7 +34,7 @@ var getQuote = function(data) {
   
   currentAuthor = $("#author").text("- " + data.quoteAuthor);
  
-  // if author property has no value 
+  // if author property has no value  
   if (data.quoteAuthor === "") {
     currentAuthor = $("#author").text("- Unknown");
   }
